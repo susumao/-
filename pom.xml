@@ -11,7 +11,7 @@
     <groupId>com.lx</groupId>
 <!--    <packaging>war</packaging>-->
     <artifactId>wx-push</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>wx-push</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -101,15 +101,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <!--            war包插件-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
             </plugin>
         </plugins>
     </build>
