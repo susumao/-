@@ -1,10 +1,10 @@
 #去申请 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 wx:
   config:
-    appId: ENC(TEu4Uf0/oETGI5lxx2ss1TjmVqxPQpJciFDthMWaxKk=)
-    appSecret: ENC(HOCVJPt873RWQaI87s4Uut03a9ilWK0j8NLH1G2hli6GreshF//SxFi05baAWXRU)
+    appId: ENC(bTxnf/vtyufLHYr/s2D7NIJBKixU5SVOcMxE0uwqTWA=)
+    appSecret: ENC(y6r96ALDunwvIR3ROab+HFXOrdppT6HkMTCoxTlgneGv/hIbY4cgphi1uC/AZbXB)
     #模板Id
-    templateId: ENC(YWEok4xvAse0vsf1ES4cRz7EqProGvH1ldSoiSworeR4Ggjwlny7yBRroKTNzk1Cw+QzhGyu4A0=)
+    templateId: ENC(5kS3Iv51eFZ312jFUl3duQJ7QMAznVxHPVOvxg9hYee+DCiAB5+NbwUOEy31arcN/xYlXngd9HA=)
     openidList:
       - "odx1k6MtHtHscFaOlezu3swC4w6c"#毛毛
 #      - "odx1k6FQ_Wyg-iafRmhMIhC1SHQI"#苏苏
@@ -21,13 +21,13 @@ message:
 #去申请 https://tianqiapi.com/user/login
 weather:
   config:
-    appid: ENC(o/G/KvqM2zzy5ekMfAIv3b3CgOD43FMp)
-    appSecret:  ENC(OUVz9WM14uaeu0o4A5quXY36uqOnH4HW)
+    appid: ENC(T6CJaFGI9yIuIe5RGt1PwG4A4WjX1yXX)
+    appSecret:  ENC(Mm7RzSB0PRQzER5uxYED88Lx9gCMSQxz)
     city: "深圳"
 #注册并购买第二档次，有券，直接白嫖 https://www.apispace.com/eolink/api/myjj/introduction
 ApiSpace:
   enableDaily: true #【新增功能】  true：开启每日一句，false：则不开启
-  token: ENC(vuxbmYBSYkdTn27Ds/mp/jbaTP1sgZ4/Rwguj2ntlkNLpqpr+Ml3wOztMI4L0iXs)
+  token: ENC(cdmNUxJyxZ6bULDxnzjc4r193RDkP9Mz531xs2zA3RZMrk9F6YiQo7eUdn6Qobww)
 
 jasypt:
   encryptor:
