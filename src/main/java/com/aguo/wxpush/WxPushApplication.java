@@ -9,21 +9,13 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication
-public class WxPushApplication /*extends SpringBootServletInitializer */ {
+public class WxPushApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger("OrderApplication");
+    private static final Logger logger = LoggerFactory.getLogger("WxPushApplication");
 
     public static void main(String[] args) {
         System.setProperty("jasypt.encryptor.password", "PEB123@321BEP");
         SpringApplication.run(WxPushApplication.class, args);
         logger.info("(♥◠‿◠)ﾉﾞ  微信推送启动成功   ლ(´ڡ`ლ)ﾞ  \n");
     }
-
-    /*@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        // 配置Springboot的应用环境
-        SpringApplicationBuilder sources = builder.sources(WxPushApplication.class);
-
-        return sources;
-    }*/
 }
