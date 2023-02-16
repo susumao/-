@@ -13,9 +13,9 @@ wx:
 
 message:
   config:
-    birthday1: "7-26" #生日日期
-    birthday2: "12-18"
-    togetherDate: "2017-03-09" #填你们在一起的那天日期
+    birthday1: ENC(5PahuFUft+7CBTxE6o71PQ==) #生日日期
+    birthday2: ENC(rHpQqwpeIGDFn2zevEdLsg==)
+    togetherDate: ENC(Rlri3trEu9E6B6n0bIQiK60r8BJerFCU) #填你们在一起的那天日期
     message: "Have a happy day and love you"
 
 #去申请 https://tianqiapi.com/user/login
