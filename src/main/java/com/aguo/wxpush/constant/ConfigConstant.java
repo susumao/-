@@ -6,11 +6,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
-/**
- * @Author: wenqiaogang
- * @DateTime: 2022/8/23 12:51
- * @Description: TODO
- */
 @Component
 @ConfigurationProperties(prefix = "wx.config")
 public class ConfigConstant {

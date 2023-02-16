@@ -14,11 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
  
-/**
- * @Description: 消息工具类
- * @Author: lst
- * @Date 2020-08-19
- */
 public class MessageUtil {
  
  

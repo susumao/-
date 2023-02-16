@@ -1,20 +1,6 @@
 package com.aguo.wxpush.entity;
  
 
-/**
- * @Description:
- * @Author: lst
- * @Date 2020-08-19
- * 1、文本消息
- * <xml>
- *   <ToUserName>oANl56cC7d7JP88la43243WaA</ToUserName>
- *   <FromUserName>gh_a1821534134</FromUserName>
- *   <CreateTime>1597979297984</CreateTime>
- *   <MsgType>text</MsgType>
- *   <Content>你</Content>
- * </xml>
- *
- */
 public class TextMessage {
     private String ToUserName;
     private String FromUserName;

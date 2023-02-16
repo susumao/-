@@ -21,11 +21,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.text.ParseException;
 import java.util.*;
 
-/**
- * @Author: wenqiaogang
- * @DateTime: 2022/8/23 17:35
- * @Description: TODO
- */
 @Service
 public class SendServiceImpl implements SendService {
     @Autowired

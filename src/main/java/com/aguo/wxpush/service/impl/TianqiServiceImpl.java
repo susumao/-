@@ -21,11 +21,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * @Author: wenqiaogang
- * @DateTime: 2022/8/23 12:55
- * @Description: TODO
- */
 @Service
 public class TianqiServiceImpl implements TianqiService {
     @Autowired

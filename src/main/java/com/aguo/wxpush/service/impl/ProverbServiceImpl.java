@@ -12,11 +12,6 @@ import java.io.IOException;
 import java.util.Random;
 
 
-/**
- * @Author: wenqiaogang
- * @DateTime: 2022/8/23 14:50
- * @Description: TODO
- */
 @Service
 public class ProverbServiceImpl implements ProverbService {
     @Autowired
