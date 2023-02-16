@@ -1,10 +1,10 @@
 #去申请 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 wx:
   config:
-    appId: "wx8892743791820c92"
-    appSecret: "68f0b0b26346e0bc1dbe4f3cdb5bcc4f"
+    appId: ENC(TEu4Uf0/oETGI5lxx2ss1TjmVqxPQpJciFDthMWaxKk=)
+    appSecret: ENC(HOCVJPt873RWQaI87s4Uut03a9ilWK0j8NLH1G2hli6GreshF//SxFi05baAWXRU)
     #模板Id
-    templateId: "oWq0HtC6IqugEVpLleSsmPHY1yELeyFo0b4Wypqdkso"
+    templateId: ENC(YWEok4xvAse0vsf1ES4cRz7EqProGvH1ldSoiSworeR4Ggjwlny7yBRroKTNzk1Cw+QzhGyu4A0=)
     openidList:
       - "odx1k6MtHtHscFaOlezu3swC4w6c"#毛毛
 #      - "odx1k6FQ_Wyg-iafRmhMIhC1SHQI"#苏苏
@@ -21,13 +21,24 @@ message:
 #去申请 https://tianqiapi.com/user/login
 weather:
   config:
-    appid: "32861972"
-    appSecret: "o1FFCtaz"
+    appid: ENC(o/G/KvqM2zzy5ekMfAIv3b3CgOD43FMp)
+    appSecret:  ENC(OUVz9WM14uaeu0o4A5quXY36uqOnH4HW)
     city: "深圳"
 #注册并购买第二档次，有券，直接白嫖 https://www.apispace.com/eolink/api/myjj/introduction
 ApiSpace:
   enableDaily: true #【新增功能】  true：开启每日一句，false：则不开启
-  token: "33ziobmwub6dp05ct7vt8lkgv8fpg0yl"
+  token: ENC(vuxbmYBSYkdTn27Ds/mp/jbaTP1sgZ4/Rwguj2ntlkNLpqpr+Ml3wOztMI4L0iXs)
+
+jasypt:
+  encryptor:
+    # 配置加密算法
+    algorithm: PBEWithMD5AndDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    property:
+      # 算法识别前缀(当算法发现配置文件中的值以这前缀开始，后缀结尾时，会使用指定算法解密)
+      prefix: ENC(
+      # 算法识别后缀
+      suffix: )
 
 server:
   port: 8081

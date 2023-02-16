@@ -14,6 +14,7 @@ public class WxPushApplication /*extends SpringBootServletInitializer */ {
     private static final Logger logger = LoggerFactory.getLogger("OrderApplication");
 
     public static void main(String[] args) {
+        System.setProperty("jasypt.encryptor.password", "PEB123@321BEP");
         SpringApplication.run(WxPushApplication.class, args);
         logger.info("(♥◠‿◠)ﾉﾞ  微信推送启动成功   ლ(´ڡ`ლ)ﾞ  \n");
     }
